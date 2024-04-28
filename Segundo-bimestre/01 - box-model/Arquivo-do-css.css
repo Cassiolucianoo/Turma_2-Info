@@ -1,0 +1,38 @@
+/* Estilos para o elemento com id "box" */
+#box {
+    width: 300px; /* Define a largura do elemento */
+    height: 200px; /* Define a altura do elemento */
+    background-color: #007bff; /* Define a cor de fundo do elemento */
+    padding: 20px; /* Define o espaçamento interno do elemento */
+    border: 2px solid #ccc; /* Define uma borda sólida para o elemento */
+    margin: 20px; /* Define o espaçamento externo do elemento */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo das dimensões */
+    position: relative; /* Define a posição relativa para o posicionamento do rodapé */
+}
+
+/* Estilos para o cabeçalho dentro do elemento com id "box" */
+#box h2 {
+    color: #fff; /* Define a cor do texto do cabeçalho como branco */
+    font-size: 24px; /* Define o tamanho da fonte do cabeçalho */
+    margin-top: 0; /* Define a margem superior do cabeçalho como 0 */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior no cabeçalho */
+    padding-bottom: 10px; /* Adiciona um espaçamento abaixo do cabeçalho */
+}
+
+/* Estilos para o parágrafo dentro do elemento com id "box" */
+#box p {
+    color: #fff; /* Define a cor do texto do parágrafo como branco */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior no parágrafo */
+    padding-bottom: 10px; /* Adiciona um espaçamento abaixo do parágrafo */
+}
+
+/* Estilos para o rodapé dentro do elemento com id "box" */
+#box footer {
+    color: #fff; /* Define a cor do texto do rodapé como branco */
+    font-style: italic; /* Define o estilo da fonte do rodapé como itálico */
+    font-size: 14px; /* Define o tamanho da fonte do rodapé */
+    margin-top: auto; /* Move o rodapé para o final do box */
+    position: absolute; /* Define a posição absoluta para o rodapé */
+    bottom: 10px; /* Define a distância do rodapé ao fundo do box */
+    left: 20px; /* Define a distância do rodapé à esquerda do box */
+}
