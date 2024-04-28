@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo do Box Model</title>
+<style>
+    /* Estilos para o elemento com id "box" */
+    #box {
+        width: 300px;
+        height: 200px;
+        background-color: #007bff;
+        padding: 20px;
+        border: 2px solid #ccc;
+        margin: 20px;
+        box-sizing: border-box; /* Inclui o padding e a borda no cálculo das dimensões */
+        position: relative; /* Define a posição relativa para o posicionamento do rodapé */
+    }
+
+    /* Estilos para o cabeçalho dentro do elemento com id "box" */
+    #box h2 {
+        color: #fff;
+        font-size: 24px;
+        margin-top: 0;
+        border-bottom: 1px solid #fff; /* Adiciona uma borda inferior no cabeçalho */
+        padding-bottom: 10px; /* Adiciona um espaçamento abaixo do cabeçalho */
+    }
+
+    /* Estilos para o parágrafo dentro do elemento com id "box" */
+    #box p {
+        color: #fff;
+        border-bottom: 1px solid #fff; /* Adiciona uma borda inferior no parágrafo */
+        padding-bottom: 10px; /* Adiciona um espaçamento abaixo do parágrafo */
+    }
+
+    /* Estilos para o rodapé dentro do elemento com id "box" */
+    #box footer {
+        color: #fff;
+        font-style: italic;
+        font-size: 14px;
+        margin-top: auto; /* Move o rodapé para o final do box */
+        position: absolute; /* Define a posição absoluta para o rodapé */
+        bottom: 10px; /* Define a distância do rodapé ao fundo do box */
+        left: 20px; /* Define a distância do rodapé à esquerda do box */
+    }
+</style>
+</head>
+<body>
+    <!-- Elemento com id "box" -->
+    <div id="box">
+        <!-- Cabeçalho -->
+        <h2>Título do Box Model</h2>
+        <!-- Parágrafo -->
+        <p>Este é um exemplo do Box Model em HTML e CSS. O Box Model consiste em quatro partes principais: conteúdo, padding, borda e margem.</p>
+        <!-- Rodapé -->
+        <footer>&copy; 2024 ExemploBoxModel.com</footer>
+    </div>
+</body>
+</html>
